@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Flower Design</title>
+</head>
+<style>
+    #p{
+        width: 600px;
+        height:600px;
+        
+        margin:auto;
+        position:relative;
+    }
+    .common{
+        width:300px;
+        height:300px;
+        position:absolute;
+    }
+    .pink{
+        background:pink;
+        top:0px;
+        left:0px;
+        border-top-right-radius:300px;
+        border-bottom-left-radius:300px;
+    }
+    .lavender{
+        background:rgb(229, 187, 235);
+        bottom:0px;
+        left:0px;
+        border-top-left-radius:300px;
+        border-bottom-right-radius:300px;
+    }
+    .maroon{
+        background:rgb(187, 71, 71);
+        top:0px;
+        right:0px;
+        border-top-left-radius:300px;
+        border-bottom-right-radius:300px;
+    }
+    .skyblue{
+        background:skyblue;
+        bottom:0px;
+        right:0px;
+        border-top-right-radius:300px;
+        border-bottom-left-radius:300px;
+    }
+</style>
+<body>
+    <div id="p">
+        <div class="common c1 pink"></div>
+        <div class="common c2 lavender"></div>
+        <div class="common c3 maroon"></div>
+        <div class="common c4 skyblue"></div>
+    </div>
+</body>
+</html>
